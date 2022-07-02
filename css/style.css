@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+
+    background-image: linear-gradient(to right, #baece7, #b0eae8, #a6e7ea, #9ce4ed, #92e1f0, #88ddf2, #7fd9f5, #76d5f7, #6acef8, #60c8fa, #58c0fa, #53b9fb);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+nav{
+
+    display: flex;
+    justify-content: flex-end;
+    background: gray;
+    flex-grow: 1;
+   
+      
+}
+
+a {
+    
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(250, 242, 242);
+    padding: 1em;
+    
+}
+.menu{
+    background-color:darkcyan;
+    color: rgb(198, 236, 236);
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 20px;
+    overflow: hidden;
+}
+.img-icon{
+    width:100px;
+    margin-right: 1200px ;
+}
+
+
+
+ul, li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 17px;
+   
+}
+
+.bichos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    
+}
+
+.Quemsomos{
+    margin: 50px;
+    
+    
+}
+
+.Titulo{
+   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.281);
+   width: 40%;
+   color:  rgb(85, 58, 4);
+   margin: auto;
+   text-align: center;
+   border: solid  rgb(170, 118, 12);
+   border-radius: 30px ;
+}
+.Qs-text-ask{
+    font-size: 32px;
+    color: rgb(170, 118, 12);
+    margin: 20px;
+}
+
+strong{
+    color: rgb(33, 122, 122);
+}
+.Qs-text-description{
+    font-size: 20px;
+    margin: 40px;
+    color: rgb(68, 77, 77);
+}
+
+
+.adotem{
+    display:block;
+    width: 100%;
+    height: 300px;
+    border-radius:5%;
+    box-shadow: 2px 4px 5px 4px rgb(61, 46, 2);
+   
+}
+.card{
+   
+    width: 20%;
+    height: 300px;    
+    margin: 25px 20px 100px;
+    text-align: center;
+         
+}
+
+.card p{
+    color: rgb(170, 118, 12);
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin:25px;
+    font-weight: bold;
+}
+.rodape img{
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    width:5%;
+    border-radius: 5px;
+    
+}
+a:hover{
+    color: rgba(194, 126, 23, 0.732);
+    transition: 0.7s;
+}
+.bichos:hover{
+    color: rgba(123, 112, 78, 0.409);
+    transition: 0.7s;
+}
+.card p:hover{
+    color: rgba(123, 112, 78, 0.409);
+    transition: 0.7s;
+}
+li:hover{
+    background-color: rgba(15, 102, 110, 0.617);
+    border-radius: 8px;
+    transition: 0.7s;
+}
+nav .img-icon:hover{
+   cursor: pointer;
+   filter: invert(77%)saturate(26%) hue-rotate(158deg) brightness(408%) contrast(100%);
+  
+    
+}
+
+footer{
+    margin-top:50px;
+    padding:4%;
+    font-size: 20px;
+    background-color: darkcyan;
+    text-align: center;
+    color:rgb(243, 158, 127);
+}
+.copirigth{
+    margin-bottom:30px;
+}
+    
+
+@media (max-width:607px){
+    .icone-adoteaqui{
+        display:none;
+        
+    }
+
+.Titulo{
+    width: 300px;
+    font-size: 22px;
+}
+.Qs-text-ask{
+    font-size:20px;
+}
+.Qs-text-description{
+    font-size: 14px;
+}
+ul,li{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    
+}
+nav{ 
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+.bichos{
+    display:flex;
+    flex-direction: column;
+    margin-right:150px;
+}
+.card{
+    height: 150px;
+}
+.card p{
+   margin-left: 80px;
+}
+.adotem{
+    display:block;
+    width: 200px;
+    height: 200px;
+    border-radius:5%;
+    box-shadow: 2px 4px 5px 4px rgb(61, 46, 2);
+}
+
+footer{
+    margin-top: -0%;
+    font-size: medium;
+    
+}
+.rodape img{
+    width:15%;
+}}
