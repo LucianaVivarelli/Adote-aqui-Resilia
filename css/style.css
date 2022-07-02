@@ -9,6 +9,7 @@ body{
     background-image: linear-gradient(to right, #baece7, #b0eae8, #a6e7ea, #9ce4ed, #92e1f0, #88ddf2, #7fd9f5, #76d5f7, #6acef8, #60c8fa, #58c0fa, #53b9fb);
     background-repeat: no-repeat;
     background-size: cover;
+    
    
 }
 
@@ -26,7 +27,7 @@ a {
     
     display: inline-block;
     text-decoration: none;
-    color:rgb(250, 242, 242);
+    color: rgb(33, 225, 222);
     padding: 1em;
     
 }
@@ -75,11 +76,15 @@ ul, li {
 .Titulo{
    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.281);
    width: 40%;
-   color:  rgb(85, 58, 4);
+   padding:10px;
+   font-size: 70px;
+   color: rgb(150, 189, 200);
    margin: auto;
    text-align: center;
-   border: solid  rgb(170, 118, 12);
-   border-radius: 30px ;
+   border: solid darkcyan;
+   border-radius: 30px;
+   text-shadow: 2px 2px 8px #25afaa;
+
 }
 .Qs-text-ask{
     font-size: 32px;
@@ -93,7 +98,13 @@ strong{
 .Qs-text-description{
     font-size: 20px;
     margin: 40px;
-    color: rgb(68, 77, 77);
+    line-height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size:25px;
+    color: rgb(170, 118, 12);
 }
 
 
@@ -134,9 +145,13 @@ a:hover{
     color: rgba(194, 126, 23, 0.732);
     transition: 0.7s;
 }
-.bichos:hover{
-    color: rgba(123, 112, 78, 0.409);
-    transition: 0.7s;
+.card:hover{
+    border:solid;
+    border-radius: 5%;
+    border-color:darkcyan;
+    transform: scale(1.1);
+    transition: 0.2s;
+  
 }
 .card p:hover{
     color: rgba(123, 112, 78, 0.409);
@@ -155,8 +170,8 @@ nav .img-icon:hover{
 }
 
 footer{
-    margin-top:50px;
-    padding:4%;
+    margin-top:30px;
+    padding:1%;
     font-size: 20px;
     background-color: darkcyan;
     text-align: center;
